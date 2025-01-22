@@ -3,7 +3,8 @@ a=3
 b=4
 somme=$((a + b))
 produit=$((a * b))
+reste=$((a - b))
 
 echo "la somme est : $somme"
 echo "le produit est :$produit"
-
+echo "le reste est :$reste"
