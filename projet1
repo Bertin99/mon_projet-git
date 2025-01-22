@@ -2,5 +2,8 @@
 a=3
 b=4
 somme=$((a + b))
+produit=$((a * b))
 
 echo "la somme est : $somme"
+echo "le produit est :$produit"
+
