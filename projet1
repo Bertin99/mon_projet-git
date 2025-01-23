@@ -1,10 +1,13 @@
 #!bin/bash
 a=3
 b=4
+c=0
 somme=$((a + b))
+somme=$((a + b + c))
 produit=$((a * b))
 reste=$((a - b))
 
+echo "la somme est : $somme"
 echo "la somme est : $somme"
 echo "le produit est :$produit"
 echo "le reste est :$reste"
