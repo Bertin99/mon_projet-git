@@ -4,11 +4,13 @@ b=4
 c=O
 somme=$((a + b))
 somme=$((a + b + c))
+produit abc=$((a * b * c))
 produit=$((a * b))
 reste=$((a - b))
 carre a=$((a * a))
 echo "la somme est : $somme"
 echo "la somme est : $somme"
 echo "le produit est :$produit"
+echo "le produit abc est :$produit abc"
 echo "le reste est :$reste"
 echo "le carré de a est : $carre a"
