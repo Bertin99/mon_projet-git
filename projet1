@@ -1,7 +1,6 @@
 #!bin/bash
 a=3
 b=4
-c=O
 somme=$((a + b))
 somme=$((a + b + c))
 produit abc=$((a * b * c))
